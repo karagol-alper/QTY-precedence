@@ -1,0 +1,331 @@
+{
+  "run_id": "run_2026-11-04_161147",
+  "created": "2026-11-04T16:12:16+00:00",
+  "qty_map": {
+    "L": "Q",
+    "I": "T",
+    "V": "T",
+    "F": "Y"
+  },
+  "ranges": {},
+  "excluded": [],
+  "data_roots": "redacted; see inputs[].file and inputs[].sha256",
+  "drive_mounted": true,
+  "data_source": "discovered files",
+  "inputs": [
+    {
+      "label": "EAA1 / SLC1A3",
+      "sha256": "63511c31541c1b4e5d1b68d000b995807c248a2a05a735c909c31fd5c03a2482",
+      "n_positions": 542,
+      "msa_total": 150,
+      "n_self_missing": 0,
+      "file": "consurf_grades.txt"
+    },
+    {
+      "label": "TLR5S (soluble)",
+      "sha256": "0cf851d2a4028e61d6acd879bcb387180c177edf28f72caeefc86d91913a1430",
+      "n_positions": 644,
+      "msa_total": 50,
+      "n_self_missing": 0,
+      "file": "no_model_consurf_grades.txt"
+    },
+    {
+      "label": "VPAT / SLC18B1",
+      "sha256": "e7d52c0f54c116742afa8cadddfd8b7e079691caeea1b3d527a7337230c3ac0f",
+      "n_positions": 456,
+      "msa_total": 50,
+      "n_self_missing": 0,
+      "file": "no_model_consurf_grades.txt"
+    },
+    {
+      "label": "EAA2 / SLC1A2 (QTY)",
+      "sha256": "7d6c3ac79f229d4ab9de3671b9630cac62e921167436bbf510090afe0a50d870",
+      "n_positions": 459,
+      "msa_total": 150,
+      "n_self_missing": 0,
+      "file": "consurf_grades.txt"
+    }
+  ],
+  "classification": {
+    "TLR5S (soluble)": {
+      "kind": "soluble (no TM)",
+      "livf": 33.5,
+      "qty": 10.6,
+      "tm_segs": 0,
+      "self_bg": 11.2,
+      "forced": false
+    },
+    "VPAT / SLC18B1": {
+      "kind": "native membrane",
+      "livf": 36.4,
+      "qty": 7.0,
+      "tm_segs": 6,
+      "self_bg": 13.2,
+      "forced": false
+    },
+    "EAA2 / SLC1A2 (QTY)": {
+      "kind": "QTY-designed",
+      "livf": 18.5,
+      "qty": 29.6,
+      "tm_segs": 1,
+      "self_bg": 27.9,
+      "forced": false
+    },
+    "EAA1 / SLC1A3": {
+      "kind": "native membrane",
+      "livf": 34.1,
+      "qty": 12.4,
+      "tm_segs": 6,
+      "self_bg": 12.3,
+      "forced": false
+    }
+  },
+  "scope": "TM only",
+  "tm_source": {
+    "TLR5S (soluble)": "predicted",
+    "VPAT / SLC18B1": "declared",
+    "EAA2 / SLC1A2 (QTY)": "predicted",
+    "EAA1 / SLC1A3": "declared"
+  },
+  "tm_regions": {
+    "TLR5S (soluble)": [],
+    "VPAT / SLC18B1": [
+      [
+        34,
+        54
+      ],
+      [
+        71,
+        91
+      ],
+      [
+        101,
+        121
+      ],
+      [
+        128,
+        148
+      ],
+      [
+        162,
+        184
+      ],
+      [
+        196,
+        216
+      ],
+      [
+        231,
+        251
+      ],
+      [
+        273,
+        293
+      ],
+      [
+        305,
+        325
+      ],
+      [
+        332,
+        352
+      ],
+      [
+        378,
+        398
+      ],
+      [
+        408,
+        428
+      ]
+    ],
+    "EAA2 / SLC1A2 (QTY)": [
+      [
+        395,
+        431
+      ]
+    ],
+    "EAA1 / SLC1A3": [
+      [
+        48,
+        68
+      ],
+      [
+        87,
+        108
+      ],
+      [
+        123,
+        145
+      ],
+      [
+        237,
+        260
+      ],
+      [
+        270,
+        297
+      ],
+      [
+        319,
+        340
+      ],
+      [
+        346,
+        376
+      ],
+      [
+        386,
+        412
+      ],
+      [
+        426,
+        459
+      ],
+      [
+        473,
+        494
+      ]
+    ]
+  },
+  "scope_comparison": {
+    "L->Q": {
+      "whole": 0.46,
+      "tm": 0.702,
+      "shift": 1.528
+    },
+    "I->T": {
+      "whole": 1.056,
+      "tm": 1.142,
+      "shift": 1.081
+    },
+    "V->T": {
+      "whole": 1.381,
+      "tm": 1.479,
+      "shift": 1.071
+    },
+    "F->Y": {
+      "whole": 2.48,
+      "tm": 2.972,
+      "shift": 1.198
+    }
+  },
+  "tm_boundary_sensitivity": {
+    "L->Q": {
+      "lo": 0.409,
+      "median": 0.702,
+      "hi": 0.999,
+      "n_defs": 3,
+      "n_sig_depleted": 1,
+      "n_sig_enriched": 0,
+      "min_p": 0.0034161160860110484,
+      "contradictory": false
+    },
+    "I->T": {
+      "lo": 1.022,
+      "median": 1.142,
+      "hi": 1.31,
+      "n_defs": 3,
+      "n_sig_depleted": 0,
+      "n_sig_enriched": 0,
+      "min_p": 0.07771124020072083,
+      "contradictory": false
+    },
+    "V->T": {
+      "lo": 1.437,
+      "median": 1.479,
+      "hi": 1.496,
+      "n_defs": 3,
+      "n_sig_depleted": 0,
+      "n_sig_enriched": 3,
+      "min_p": 8.422526727667334e-05,
+      "contradictory": false
+    },
+    "F->Y": {
+      "lo": 2.478,
+      "median": 2.972,
+      "hi": 3.617,
+      "n_defs": 3,
+      "n_sig_depleted": 0,
+      "n_sig_enriched": 3,
+      "min_p": 5.600928074370578e-09,
+      "contradictory": false
+    }
+  },
+  "pooled_proteins": [
+    "EAA1 / SLC1A3",
+    "VPAT / SLC18B1"
+  ],
+  "reference_proteins": [
+    "EAA2 / SLC1A2 (QTY)"
+  ],
+  "heterogeneity": "not computed: k = 2 < 3",
+  "n_substitutable_sites": 652,
+  "n_unprecedented": 394,
+  "n_substitutable_sites_pooled": 351,
+  "n_unprecedented_pooled": 196,
+  "pooled": {
+    "L->Q": {
+      "n": 87,
+      "ratio": 0.7022,
+      "ci": [
+        0.128,
+        1.2764
+      ],
+      "detectable_outside": [
+        0.4258,
+        1.5742
+      ],
+      "p": 0.3093767069669191,
+      "verdict": "no effect"
+    },
+    "I->T": {
+      "n": 56,
+      "ratio": 1.142,
+      "ci": [
+        0.891,
+        1.3929
+      ],
+      "detectable_outside": [
+        0.7491,
+        1.2509
+      ],
+      "p": 0.26748101717383976,
+      "verdict": "no effect"
+    },
+    "V->T": {
+      "n": 64,
+      "ratio": 1.4793,
+      "ci": [
+        1.2404,
+        1.7181
+      ],
+      "detectable_outside": [
+        0.7611,
+        1.2389
+      ],
+      "p": 8.422526727667334e-05,
+      "verdict": "enriched in all"
+    },
+    "F->Y": {
+      "n": 37,
+      "ratio": 2.9716,
+      "ci": [
+        2.3086,
+        3.6346
+      ],
+      "detectable_outside": [
+        0.337,
+        1.663
+      ],
+      "p": 5.600928074370578e-09,
+      "verdict": "enriched in all"
+    }
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.10.0",
+    "python": "3.13.18"
+  }
+}

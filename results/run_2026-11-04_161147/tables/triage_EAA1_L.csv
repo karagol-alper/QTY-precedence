@@ -1,0 +1,57 @@
+seqres_pos,aa,atom_resid,score,grade,low_conf,msa_n,msa_total,buried,functional,n_variety,variety,in_tm,call,swap,charged_seen
+27,L,,0.706,4,False,14,150,,,5,L|S|R|A|M,False,3 · charged sampled — a larger jump than Q,L27Q,R
+28,L,,0.929,3,False,17,150,,,7,L|E|K|Q|H|V|R,False,1 · Q sampled — code as written,L28Q,EKR
+45,L,3,0.847,3,False,112,150,e,,9,L|M|I|V|C|W|G|F|A,False,4 · other polar sampled,L45Q,
+52,L,10,0.84,3,False,129,150,e,,9,L|A|T|I|V|F|M|S|G,True,"2 · T sampled, Q not",L52Q,
+53,L,11,0.203,5,False,129,150,e,,10,L|V|G|F|M|S|C|T|A|I,True,"2 · T sampled, Q not",L53Q,
+64,L,22,0.634,4,False,136,150,e,,9,L|I|V|A|T|M|F|S|Y,True,"2 · T sampled, Q not",L64Q,
+68,L,26,-0.34,6,False,136,150,e,,10,L|V|G|I|A|C|P|M|F|S,True,4 · other polar sampled,L68Q,
+87,L,45,0.024,5,False,141,150,e,,5,L|I|M|V|S,True,4 · other polar sampled,L87Q,
+88,L,46,-0.725,8,False,141,150,b,,5,L|F|V|G|Y,True,4 · other polar sampled,L88Q,
+92,L,50,-0.966,9,False,143,150,b,s,6,L|I|G|V|C|Y,True,4 · other polar sampled,L92Q,
+95,L,53,-0.434,7,False,144,150,b,,6,L|M|V|I|A|F,True,5 · strictly hydrophobic — exempt,L95Q,
+97,L,55,-0.694,8,False,144,150,e,f,4,L|I|V|K,True,3 · charged sampled — a larger jump than Q,L97Q,K
+99,L,57,-1.112,9,False,144,150,b,s,4,L|V|R|I,True,3 · charged sampled — a larger jump than Q,L99Q,R
+104,L,62,-0.515,7,False,144,150,b,,5,L|I|V|M|T,True,"2 · T sampled, Q not",L104Q,
+111,L,69,-0.794,8,False,145,150,b,,7,L|I|V|M|A|G|F,False,5 · strictly hydrophobic — exempt,L111Q,
+171,L,129,-0.629,7,False,147,150,e,,4,L|F|M|S,False,4 · other polar sampled,L171Q,
+173,L,131,-0.98,9,False,147,150,e,f,5,L|I|M|F|Q,False,1 · Q sampled — code as written,L173Q,
+182,L,140,-0.732,8,False,147,150,e,f,5,L|I|V|F|P,False,5 · strictly hydrophobic — exempt,L182Q,
+209,L,,2.107,1,False,93,150,,,14,L|I|D|M|T|S|G|N|P|A|F|E|V|Q,False,1 · Q sampled — code as written,L209Q,DE
+224,L,,1.856,2,False,77,150,,,16,L|A|I|N|V|Q|E|T|S|Y|F|D|M|R|P|G,False,1 · Q sampled — code as written,L224Q,DER
+231,L,,1.053,3,False,149,150,,,14,L|M|V|T|E|W|K|Y|I|N|Q|F|R|S,False,1 · Q sampled — code as written,L231Q,EKR
+244,L,202,-0.976,9,False,150,150,b,s,5,L|M|I|F|V,True,5 · strictly hydrophobic — exempt,L244Q,
+246,L,204,-0.526,7,False,150,150,b,,5,L|Y|I|V|M,True,4 · other polar sampled,L246Q,
+267,L,225,-0.605,7,False,148,150,e,,6,L|V|M|F|I|T,False,"2 · T sampled, Q not",L267Q,
+274,L,232,-0.449,7,False,149,150,e,,7,L|I|F|V|T|M|C,True,"2 · T sampled, Q not",L274Q,
+281,L,239,-0.094,5,False,150,150,e,,8,L|M|S|A|I|V|W|F,True,4 · other polar sampled,L281Q,
+294,L,252,0.309,4,False,150,150,e,,9,L|S|M|F|V|A|I|T|C,True,"2 · T sampled, Q not",L294Q,
+296,L,254,-1.055,9,False,150,150,b,s,4,L|I|M|V,True,5 · strictly hydrophobic — exempt,L296Q,
+314,L,272,-0.839,8,False,150,150,b,,4,L|I|V|M,False,5 · strictly hydrophobic — exempt,L314Q,
+325,L,283,-0.917,8,False,150,150,b,,6,L|V|H|I|F|T,True,"2 · T sampled, Q not",L325Q,
+326,L,284,1.271,3,False,150,150,e,,10,L|F|A|I|M|S|V|G|T|Y,True,"2 · T sampled, Q not",L326Q,
+333,L,291,-1.02,9,False,150,150,b,s,5,L|M|V|Q|Y,True,1 · Q sampled — code as written,L333Q,
+335,L,293,0.665,4,False,150,150,e,,9,L|I|M|A|T|G|F|V|S,True,"2 · T sampled, Q not",L335Q,
+336,L,294,-0.202,6,False,150,150,e,,7,L|I|V|F|M|S|T,True,"2 · T sampled, Q not",L336Q,
+339,L,297,1.138,3,False,150,150,e,,10,L|A|V|I|F|M|T|G|S|N,True,"2 · T sampled, Q not",L339Q,
+352,L,310,-0.263,6,False,150,150,b,,8,L|M|V|I|Q|S|C|F,True,1 · Q sampled — code as written,L352Q,
+353,L,311,0.464,4,False,150,150,e,,13,L|S|A|I|G|F|V|M|Y|Q|P|K|T,True,1 · Q sampled — code as written,L353Q,K
+356,L,314,-0.16,6,False,150,150,b,,11,L|M|W|I|T|F|V|A|Y|C|Q,True,1 · Q sampled — code as written,L356Q,
+360,L,318,-0.457,7,False,149,150,e,,8,L|A|I|F|W|M|V|S,True,4 · other polar sampled,L360Q,
+369,L,327,-1.008,9,False,146,150,b,s,6,L|V|M|S|C|F,True,4 · other polar sampled,L369Q,
+376,L,334,-0.59,7,False,146,150,b,,7,L|M|I|C|V|A|T,True,"2 · T sampled, Q not",L376Q,
+391,L,349,-0.646,7,False,146,150,b,,7,L|T|A|V|I|S|M,True,"2 · T sampled, Q not",L391Q,
+404,L,362,-0.864,8,False,146,150,b,,6,L|M|I|C|H|V,True,4 · other polar sampled,L404Q,
+408,L,366,-0.793,8,False,146,150,b,,7,L|V|I|T|A|S|M,True,"2 · T sampled, Q not",L408Q,
+421,L,379,-0.786,8,False,146,150,e,f,4,L|F|M|V,False,5 · strictly hydrophobic — exempt,L421Q,
+448,L,406,-0.661,7,False,144,150,b,,10,L|M|Y|A|V|P|I|T|H|G,True,"2 · T sampled, Q not",L448Q,
+455,L,413,-1.108,9,False,144,150,b,s,4,L|M|V|P,True,5 · strictly hydrophobic — exempt,L455Q,
+460,L,418,-0.936,8,False,145,150,b,,6,L|A|I|V|F|T,False,"2 · T sampled, Q not",L460Q,
+467,L,425,-0.649,7,False,145,150,b,,7,L|I|M|F|N|T|P,False,"2 · T sampled, Q not",L467Q,
+475,L,433,-0.875,8,False,144,150,b,,4,L|V|I|M,True,5 · strictly hydrophobic — exempt,L475Q,
+478,L,436,-0.154,6,False,143,150,e,,9,L|I|V|F|C|T|M|Q|S,True,1 · Q sampled — code as written,L478Q,
+485,L,443,-0.305,6,False,142,150,b,,8,L|I|E|V|M|F|T|A,True,"2 · T sampled, Q not",L485Q,E
+489,L,447,0.065,5,False,142,150,b,,6,L|Y|F|I|V|T,True,"2 · T sampled, Q not",L489Q,
+497,L,455,-0.065,5,False,141,150,e,,8,L|Y|F|M|I|V|W|R,False,3 · charged sampled — a larger jump than Q,L497Q,R
+502,L,,-0.417,7,False,131,150,,,9,L|F|I|A|S|V|M|K|P,False,3 · charged sampled — a larger jump than Q,L502Q,K
+525,L,,0.111,5,False,16,150,,,4,L|I|D|R,False,3 · charged sampled — a larger jump than Q,L525Q,DR

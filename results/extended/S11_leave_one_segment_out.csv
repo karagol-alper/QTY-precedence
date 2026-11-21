@@ -1,0 +1,5 @@
+swap,n_drops,full_ratio,min_ratio,min_at,max_ratio,max_at,n_p_below_05,conclusion_stable
+L→Q,22,0.702,0.485,EAA1 TM7,0.782,EAA1 TM5,0,yes
+I→T,22,1.142,1.077,EAA1 TM3,1.198,VPAT TM10,0,yes
+V→T,22,1.479,1.423,VPAT TM6,1.543,EAA1 TM9,22,yes
+F→Y,22,2.972,2.691,VPAT TM3,3.258,EAA1 TM5,22,yes

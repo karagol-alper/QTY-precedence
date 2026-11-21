@@ -1,0 +1,5 @@
+forward,reciprocal,n_sites,observed,expected,reciprocal_ratio,ci_lo,ci_hi,p,forward_ratio,symmetric_lift,min_detectable,p_adj
+L→Q,Q→L,4,1,2.66,0.376,0.0,1.073,0.0792,0.702,0.929,1.7,0.158
+I→T,T→I,29,18,18.45,0.976,0.701,1.251,0.862,1.142,1.223,1.27,0.862
+V→T,T→V,29,20,20.75,0.964,0.735,1.193,0.757,1.479,1.189,1.23,0.862
+F→Y,Y→F,10,9,4.84,1.859,1.22,2.497,0.00839,2.972,1.454,1.64,0.0336
