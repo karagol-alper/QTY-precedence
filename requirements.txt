@@ -1,0 +1,7 @@
+# Versions recorded in the run manifest for run_2026-11-04_161147.
+# Later versions work; these are what produced the published numbers.
+pandas>=2.2.3
+numpy>=2.0
+scipy>=1.11
+matplotlib>=3.10.0
+biopython>=1.83        # substitution matrices for the concordance analysis
